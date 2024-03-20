@@ -96,7 +96,7 @@ function Home() {
         <div className="item">
           <img
             src="https://media.easemytrip.com/media/Blog/India/637726618781495393/637726618781495393q0l8Kf.jpg"
-            alt="Image"
+            alt=""
             className="item-img"
           />
         </div>
@@ -121,7 +121,7 @@ function Home() {
         <div className="item">
           <img
             src="https://media.easemytrip.com/media/Blog/India/637726618781495393/637726618781495393TXeHOy.jpg"
-            alt="Image"
+            alt=""
             className="item-img"
           />
         </div>
@@ -129,7 +129,7 @@ function Home() {
         <div className="item">
           <img
             src="https://media.easemytrip.com/media/Blog/India/637726618781495393/637726618781495393hR9wmd.jpg"
-            alt="Image"
+            alt=""
             className="item-img"
           />
         </div>
@@ -152,7 +152,7 @@ function Home() {
         <div className="item">
           <img
             src="https://media.easemytrip.com/media/Blog/India/637726618781495393/637726618781495393HDEwOB.jpg"
-            alt="Image"
+            alt=""
             className="item-img"
           />{" "}
         </div>

@@ -7,7 +7,7 @@ export default function Footer() {
                         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
 <footer class="bg-dark-gradient footer">
     <div class="footer-top">
-        <div class="container">
+        <div class="footer-container ">
             <div class="footer-border-bottom pb-6 mb-5">
                 <div class="row">
                     <div class="col-lg-4 col-xl-3">

@@ -2,11 +2,11 @@ import React from 'react'
 import './reviewCss.css'
 import Heading from './Heading'
 
-export default function Review() {
+function Review() {
   return (
     <>
     
-<div class="container">
+<div class="review-container">
     <div class="mgb-40 padb-30 auto-invert line-b-4 align-center">
         <h1 class="font-cond-b fg-text-d lts-md fs-300 fs-300-xs no-mg" contenteditable="false" id="heading-review">Read Customer Reviews</h1>
     </div>
@@ -36,3 +36,4 @@ export default function Review() {
     </>
   )
 }
+export default Review;

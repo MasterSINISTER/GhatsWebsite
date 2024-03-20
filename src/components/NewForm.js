@@ -134,7 +134,7 @@ function NewForm() {
                               />
                               <i class="input-icon uil uil-lock-alt"></i>
                             </div>
-                            <Link to="/ghats" class="btn mt-4" onClick={signIn}>
+                            <Link to="/ghats" class="btn-newForm mt-4" onClick={signIn}>
                               submit
                             </Link>
                             <p class="mb-0 mt-4 text-center">
@@ -200,7 +200,7 @@ function NewForm() {
                               />
                               <i class="input-icon uil uil-lock-alt"></i>
                             </div>
-                            <Link to="/ghats" class="btn mt-4" onClick={signUp}>
+                            <Link to="/ghats" class="btn-newForm mt-4" onClick={signUp}>
                               submit
                             </Link>
                           </div>

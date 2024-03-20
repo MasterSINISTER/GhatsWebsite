@@ -54,7 +54,7 @@ export default function CustomNav() {
             <ul className="navbar-nav me-auto mb-5 mb-lg-0 mg-10 position-absolute top-10 start-50 translate-middle-x">
               <li className="nav-item1">
                 <a
-                  className="nav-link active ms-5"
+                  className="nav-link active"
                   aria-current="page"
                   href="/"
                 >

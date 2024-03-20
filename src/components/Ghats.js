@@ -27,7 +27,7 @@ export default function Ghats() {
                 <div className="lc-block pt-5 mt-7 mb-5 my-2">
                   <div editable="rich">
                     <h2 className="display-6 lh-1 fw-bold">
-                      <br></br><br></br>Lorem ipsum dolor sit amet 
+                      <br></br><br></br> Varanasi
                     </h2>
                     <p>
                       Quickly design and customize responsive mobile-first sites
@@ -61,7 +61,7 @@ export default function Ghats() {
                 <div className="lc-block pt-5 mt-5 mb-4">
                   <div editable="rich">
                     <h2 className="display-6 lh-1 fw-bold">
-                      Much longer title that wraps to multiple lines
+                      Ujjain
                     </h2>
                     <p>
                       Quickly design and customize responsive mobile-first sites
@@ -95,7 +95,7 @@ export default function Ghats() {
                 <div className="lc-block pt-5 mt-5 mb-4">
                   <div editable="rich">
                     <h2 className="display-6 lh-1 fw-bold">
-                      Much longer title that wraps to multiple lines
+                      Prayagraj
                     </h2>
                     <p>
                       Quickly design and customize responsive mobile-first sites

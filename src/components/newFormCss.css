@@ -241,7 +241,7 @@ h6 span{
     transition: all 200ms linear;
 }
 
-.btn{  
+.btn-newForm{  
   border-radius: 4px;
   height: 44px;
   font-size: 13px;
@@ -270,13 +270,13 @@ h6 span{
   backdrop-filter: blur(1px);
   box-shadow: 0 8px 24px 0 rgba(4, 28, 53, 0.2);
 }
-.btn:active,
-.btn:focus{  
+.btn-newForm:active,
+.btn-newForm:focus{  
   background-color: #102770;
   color: #ffeba7;
   box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
 }
-.btn:hover{  
+.btn-newForm:hover{  
   background-color: #ffffff;
   color: #000000;
   box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);

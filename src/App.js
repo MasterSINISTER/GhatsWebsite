@@ -13,6 +13,7 @@ import Gallery from './components/Gallery';
 import Practice from './components/Practice';
 import ProtectedRoute from './auth/ProtectedRoute';
 import Dashboard from './components/Dashboard';
+import Varanasi from './poojaghats/Varanasi';
 
 
 function MyProtectedPage() {
@@ -43,6 +44,7 @@ function App() {
         <Route path='/login' element={<NewForm/>}></Route>
         <Route path='/ghats' element={<Ghats/>}></Route>
         <Route path='/terms' element={<Terms/>}></Route>
+        <Route path='/varanasi' element={<Varanasi/>}></Route>
       </Routes>
     </Router>
     </>
