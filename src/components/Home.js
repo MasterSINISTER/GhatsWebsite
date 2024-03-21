@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Review from "./Review";
 import Slider from "./Slider";
+import { Link } from "react-router-dom";
 // import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 // import Team from "./Team";
 // import Signup from "./Signup";
@@ -39,7 +40,7 @@ function Home() {
       <div className="grid">
         <div className="grid-item">
           <img
-            src="https://kevinstandagephotography.files.wordpress.com/2020/05/ksp_5403.jpg"
+            src="https://images.unsplash.com/photo-1578378377576-2ed7065bdb87?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
             className="highlight-images"
           ></img>
@@ -82,9 +83,9 @@ function Home() {
         </div>
       </div>
       <div id="div-morebtn">
-        <button id="btn-more" type="button">
+        <Link to='/ghats'><button id="btn-more" type="button">
           More
-        </button>
+        </button></Link>
       </div>
       <div id="footer-container">
         <footer id="landing-footer"></footer>

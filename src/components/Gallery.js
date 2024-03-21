@@ -5,7 +5,7 @@ import CustomNav from './CustomNav';
 export default function Gallery() {
   return (
    <>
-   {/* <CustomNav /> */}
+   <CustomNav />
    <h1 className='gallery-heading'>
     Memorable Moments
    </h1>

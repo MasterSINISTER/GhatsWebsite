@@ -1,21 +1,26 @@
-import React from "react";
-import './galleryCss.css'
-import Navbar from "./Navbar";
-import Heading from "./Heading";
+import React, { useState, useEffect } from "react";
+import "./galleryCss.css";
+import { Link } from "react-router-dom";
 import CustomNav from "./CustomNav";
 
-export default function Ghats() {
+const Ghats = ({ Vtemperature, Utemperature,Ptemperature,Mtemperature,Rtemperature,Patemperature }) => {
   return (
     <>
-    <div style={{marginLeft:'-20%',marginTop:'3%',backgroundColor:'transparent'}}>
-    <CustomNav />
-    </div>
-    {/* <Heading title="Indian Ghats"/> */}
+      <div
+        style={{
+          marginLeft: "-20%",
+          marginTop: "3%",
+          backgroundColor: "transparent",
+        }}
+      >
+        <CustomNav />
+      </div>
+      {/* <Heading title="Indian Ghats"/> */}
       <div className="container">
         <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-        <div className="col">
+          <div className="col">
             <div
-              className="lc-block card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+              className="lc-block card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg card-varanasi"
               lc-helper="background"
               style={{
                 backgroundImage:
@@ -27,22 +32,29 @@ export default function Ghats() {
                 <div className="lc-block pt-5 mt-7 mb-5 my-2">
                   <div editable="rich">
                     <h2 className="display-6 lh-1 fw-bold">
-                      <br></br><br></br> Varanasi
+                      <br></br>
+                      <br></br> Varanasi
                     </h2>
                     <p>
                       Quickly design and customize responsive mobile-first sites
                       with Bootstrap.
                     </p>
                   </div>
+                  <div className="getWeather">
+                    <p style={{ fontFamily: "Poppins", fontSize: "1.4rem" }}>
+                      {Vtemperature}°C
+                    </p>
+                  </div>
                 </div>
                 <ul className="lc-block d-flex list-unstyled mt-auto ms-auto">
-                  <a
-                    className="btn btn-link btn-sm text-white " id="btn-readmore"
-                    href="/"
+                  <Link
+                    className="btn btn-link btn-sm text-white "
+                    id="btn-readmore"
+                    to="/ghats/varanasi"
                     role="button"
                   >
                     Read more
-                  </a>
+                  </Link>
                 </ul>
               </div>
             </div>
@@ -60,23 +72,27 @@ export default function Ghats() {
               <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                 <div className="lc-block pt-5 mt-5 mb-4">
                   <div editable="rich">
-                    <h2 className="display-6 lh-1 fw-bold">
-                      Ujjain
-                    </h2>
+                    <h2 className="display-6 lh-1 fw-bold">Ujjain</h2>
                     <p>
                       Quickly design and customize responsive mobile-first sites
                       with Bootstrap.
                     </p>
                   </div>
+                  <div className="getWeather">
+                    <p style={{ fontFamily: "Poppins", fontSize: "1.4rem" }}>
+                      {Utemperature}°C
+                    </p>
+                  </div>
                 </div>
                 <ul className="lc-block d-flex list-unstyled mt-auto ms-auto">
-                  <a
-                    className="btn btn-link btn-sm text-white " id="btn-readmore"
-                    href="/"
+                  <Link
+                    className="btn btn-link btn-sm text-white "
+                    id="btn-readmore"
+                    to="/ghats/ujjain"
                     role="button"
                   >
                     Read more
-                  </a>
+                  </Link>
                 </ul>
               </div>
             </div>
@@ -94,23 +110,27 @@ export default function Ghats() {
               <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                 <div className="lc-block pt-5 mt-5 mb-4">
                   <div editable="rich">
-                    <h2 className="display-6 lh-1 fw-bold">
-                      Prayagraj
-                    </h2>
+                    <h2 className="display-6 lh-1 fw-bold">Prayagraj</h2>
                     <p>
                       Quickly design and customize responsive mobile-first sites
                       with Bootstrap.
                     </p>
                   </div>
+                  <div className="getWeather">
+                    <p style={{ fontFamily: "Poppins", fontSize: "1.4rem" }}>
+                      {Ptemperature}°C
+                    </p>
+                  </div>
                 </div>
                 <ul className="lc-block d-flex list-unstyled mt-auto ms-auto">
-                  <a
-                    className="btn btn-link btn-sm text-white " id="btn-readmore"
-                    href="/"
+                  <Link
+                    className="btn btn-link btn-sm text-white "
+                    id="btn-readmore"
+                    to="/ghats/prayagraj"
                     role="button"
                   >
                     Read more
-                  </a>
+                  </Link>
                 </ul>
               </div>
             </div>
@@ -129,17 +149,23 @@ export default function Ghats() {
                 <div className="lc-block pt-5 mt-5 mb-4">
                   <div editable="rich">
                     <h2 className="display-6 lh-1 fw-bold">
-                      Short title, long jacket
+                      Mathura
                     </h2>
                     <p>
                       Quickly design and customize responsive mobile-first sites
                       with Bootstrap.
                     </p>
                   </div>
+                  <div className="getWeather">
+                    <p style={{ fontFamily: "Poppins", fontSize: "1.4rem" }}>
+                      {Mtemperature}°C
+                    </p>
+                  </div>
                 </div>
                 <ul className="lc-block d-flex list-unstyled mt-auto ms-auto">
                   <a
-                    className="btn btn-link btn-sm text-dark " id="btn-readmore"
+                    className="btn btn-link btn-sm text-dark "
+                    id="btn-readmore"
                     href="/"
                     role="button"
                   >
@@ -164,17 +190,23 @@ export default function Ghats() {
                 <div className="lc-block pt-5 mt-5 mb-4">
                   <div editable="rich">
                     <h2 className="display-6 lh-1 fw-bold">
-                      Much longer title that wraps to multiple lines
+                      Rishikesh
                     </h2>
                     <p>
                       Quickly design and customize responsive mobile-first sites
                       with Bootstrap.
                     </p>
                   </div>
+                  <div className="getWeather">
+                    <p style={{ fontFamily: "Poppins", fontSize: "1.4rem" }}>
+                      {Rtemperature}°C
+                    </p>
+                  </div>
                 </div>
                 <ul className="lc-block d-flex list-unstyled mt-auto ms-auto">
                   <a
-                    className="btn btn-link btn-sm text-white " id="btn-readmore"
+                    className="btn btn-link btn-sm text-white "
+                    id="btn-readmore"
                     href="/"
                     role="button"
                   >
@@ -199,17 +231,23 @@ export default function Ghats() {
                 <div className="lc-block pt-5 mt-5 mb-4">
                   <div editable="rich">
                     <h2 className="display-6 lh-1 fw-bold">
-                      Another longer title belongs here
+                      Patna
                     </h2>
                     <p>
                       Quickly design and customize responsive mobile-first sites
                       with Bootstrap.
                     </p>
                   </div>
+                  <div className="getWeather">
+                    <p style={{ fontFamily: "Poppins", fontSize: "1.4rem" }}>
+                      {Patemperature}°C
+                    </p>
+                  </div>
                 </div>
                 <ul className="lc-block d-flex list-unstyled mt-auto ms-auto">
                   <a
-                    className="btn btn-link btn-sm text-white " id="btn-readmore"
+                    className="btn btn-link btn-sm text-white "
+                    id="btn-readmore"
                     href="/"
                     role="button"
                   >
@@ -223,4 +261,5 @@ export default function Ghats() {
       </div>
     </>
   );
-}
+};
+export default Ghats;
