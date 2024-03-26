@@ -4,11 +4,14 @@ import CustomNav from "../components/CustomNav";
 import TypeIt from "typeit-react";
 import BasicModal from "../components/Modal";
 import Footer from "../components/Footer";
+import Breadcrum from "../components/Breadcrum";
+// import { Breadcrumbs } from "@mui/material";
 
 function Varanasi() {
   return (
     <>
-      <CustomNav />
+      {/* <CustomNav /> */}
+      <Breadcrum ghat="Varanasi"/>
       <div className="var-heading-container">
         <TypeIt>
           <h1 className="var-heading">Varanasi</h1>

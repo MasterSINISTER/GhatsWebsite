@@ -17,6 +17,9 @@ import Varanasi from './poojaghats/Varanasi';
 import UjjainWeather from './WeatherAPI/UjjainWeather';
 import Ujjain from './poojaghats/Ujjain';
 import Prayagraj from './poojaghats/Prayagraj';
+import Mathura from './poojaghats/Mathura';
+import Rishikesh from './poojaghats/Rishikesh';
+import Patna from './poojaghats/Patna';
 
 
 function MyProtectedPage() {
@@ -49,7 +52,10 @@ function App() {
         <Route path='/terms' element={<Terms/>}></Route>
         <Route path='/ghats/varanasi' element={<Varanasi/>}></Route>
         <Route path='/ghats/ujjain' element={<Ujjain/>}></Route>
-        <Route path='/ghats/prayagraj' element={<Prayagraj/>}></Route>
+        <Route path='/ghats/haridwar' element={<Prayagraj/>}></Route>
+        <Route path='/ghats/mathura' element={<Mathura/>}></Route>
+        <Route path='/ghats/rishikesh' element={<Rishikesh/>}></Route>
+        <Route path='/ghats/patna' element={<Patna/>}></Route>
       </Routes>
     </Router>
     </>

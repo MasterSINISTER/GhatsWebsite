@@ -37,7 +37,7 @@ export default function CustomNav() {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-light navbar-light">
+      <nav className="navbar navbar-expand-lg bg-light navbar-light sticky-top">
         <div className="container-fluid">
           <button
             className="navbar-toggler"

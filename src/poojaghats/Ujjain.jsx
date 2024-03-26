@@ -4,11 +4,13 @@ import CustomNav from "../components/CustomNav";
 import TypeIt from "typeit-react";
 import BasicModal from "../components/Modal";
 import Footer from "../components/Footer";
+import Breadcrum from "../components/Breadcrum";
 
 function Ujjain() {
   return (
     <>
-      <CustomNav />
+      {/* <CustomNav /> */}
+      <Breadcrum ghat="Ujjain"/>
       <div className="var-heading-container">
         <TypeIt>
           <h1 className="var-heading">Ujjain</h1>
@@ -26,7 +28,7 @@ function Ujjain() {
           <p>
             <h1>Gau Ghat</h1>
                 
-Gau Ghat, situated on the sacred banks of the Ganges River in Varanasi, India, holds profound religious significance for followers of Hinduism.
+Gau Ghat, situated on the sacred banks of the Ganges River in Ujjain, India, holds profound religious significance for followers of Hinduism.
             <BasicModal
               title="Gau Ghats"
               description="Also known as Gau Mata Ghat, it is dedicated to the revered cow, considered sacred in Hindu culture.
@@ -51,16 +53,16 @@ Gau Ghat, situated on the sacred banks of the Ganges River in Varanasi, India, h
         <div className="text-container-left">
           <p>
             <h1>Mangalnath Ghat</h1>
-            Mangalnath Ghat, nestled along the sacred Ganges River in Varanasi, India, is a site steeped in both religious significance and historical charm.
+            Mangalnath Ghat, nestled along the sacred Ganges River in Ujjain, India, is a site steeped in both religious significance and historical charm.
             <BasicModal
               title="Mangalnath Ghat"
               description="Named after the Hindu deity Mangala, associated with Mars in Vedic astrology, this ghat holds immense importance for devotees and pilgrims.
 
               According to Hindu mythology, Mangalnath Ghat is believed to be the birthplace of Mangala, making it a revered spot for those seeking blessings for strength, courage, and auspiciousness. Devotees often visit the ghat to perform prayers and rituals dedicated to Mangala, seeking divine intervention in their lives.
               
-              Beyond its religious significance, Mangalnath Ghat also boasts architectural splendor and natural beauty. The ghat's ancient structures and intricate carvings reflect the rich cultural heritage of Varanasi, while its serene waterfront offers a tranquil setting for meditation and spiritual contemplation.
+              Beyond its religious significance, Mangalnath Ghat also boasts architectural splendor and natural beauty. The ghat's ancient structures and intricate carvings reflect the rich cultural heritage of Ujjain, while its serene waterfront offers a tranquil setting for meditation and spiritual contemplation.
               
-              Mangalnath Ghat is also a popular destination for tourists and history enthusiasts, who flock to admire its architectural marvels and soak in the vibrant atmosphere of Varanasi's waterfront."
+              Mangalnath Ghat is also a popular destination for tourists and history enthusiasts, who flock to admire its architectural marvels and soak in the vibrant atmosphere of Ujjain's waterfront."
             />
           </p>
         </div>
@@ -75,16 +77,16 @@ Gau Ghat, situated on the sacred banks of the Ganges River in Varanasi, India, h
         <div className="text-container">
           <p>
             <h1>Ram Ghat</h1>
-            Ram Ghat, situated along the revered banks of the Ganges River in Varanasi, India, is a significant pilgrimage site steeped in religious and cultural heritage. 
+            Ram Ghat, situated along the revered banks of the Ganges River in Ujjain, India, is a significant pilgrimage site steeped in religious and cultural heritage. 
             <BasicModal
               title="Ram Ghat"
               description="Named after the Hindu deity Lord Ram, this ghat holds profound significance for devotees and visitors alike.
 
-              According to Hindu mythology, it is believed that Lord Ram visited Varanasi during his exile period and offered prayers at this very ghat, sanctifying it with his divine presence. This association with Lord Ram makes Ram Ghat a revered spot for pilgrims seeking blessings for spiritual fulfillment and prosperity.
+              According to Hindu mythology, it is believed that Lord Ram visited Ujjain during his exile period and offered prayers at this very ghat, sanctifying it with his divine presence. This association with Lord Ram makes Ram Ghat a revered spot for pilgrims seeking blessings for spiritual fulfillment and prosperity.
               
-              Ram Ghat is characterized by its serene ambiance and timeless charm, offering a peaceful retreat amidst the bustling city of Varanasi. Devotees often gather here to perform sacred rituals, offer prayers, and take holy dips in the sacred waters of the Ganges, believing in the purifying powers of the river.
+              Ram Ghat is characterized by its serene ambiance and timeless charm, offering a peaceful retreat amidst the bustling city of Ujjain. Devotees often gather here to perform sacred rituals, offer prayers, and take holy dips in the sacred waters of the Ganges, believing in the purifying powers of the river.
               
-              Apart from its religious significance, Ram Ghat also serves as a cultural hub, hosting various festivals, ceremonies, and cultural events throughout the year. The ghat's picturesque surroundings and panoramic views of the river make it a popular destination for tourists and photographers seeking to capture the essence of Varanasi's timeless beauty."
+              Apart from its religious significance, Ram Ghat also serves as a cultural hub, hosting various festivals, ceremonies, and cultural events throughout the year. The ghat's picturesque surroundings and panoramic views of the river make it a popular destination for tourists and photographers seeking to capture the essence of Ujjain's timeless beauty."
             />
           </p>
         </div>

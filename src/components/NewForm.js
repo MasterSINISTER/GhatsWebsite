@@ -28,6 +28,7 @@ function NewForm() {
   const [email,setemail]=useState('');
   const [password,setpassword]=useState('');
   const errorElementRef = useRef(isLoggedIn);
+  const getResult=document.getElementById("msg-dsp")
   useEffect(() => {
     if (!isLoggedIn) {
       errorElementRef.current.textContent = "Invalid email or password";
@@ -51,7 +52,8 @@ function NewForm() {
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       const user = userCredential.user;
 
-      alert("Sign Up SuccessFull !");
+      getResult.textContent='Sign Up Success !'
+      // alert("Sign Up SuccessFull !");
       navigate('/login'); // Replace '/success' with your desired redirect path
     } catch (error) {
       console.error(error);
@@ -74,11 +76,12 @@ function NewForm() {
       const userCredential = await signInWithEmailAndPassword(auth, email, password);
       const user = userCredential.user;
 
-      alert("Login Successful!");
+      getResult.textContent="Login Successfull !"
+      // alert("Login Successful!");
       navigate('/ghats'); // Replace '/success' with your desired redirect path
     } catch (error) {
       console.error(error);
-      alert("User Credentials are Wrong!");
+      getResult.textContent="User Credentials are Wrong!"
     }
   };
   return (
@@ -143,13 +146,16 @@ function NewForm() {
                               </a>
                             </p>
                           </div>
+                          <div>
+                            <p id='msg-dsp'></p>
+                          </div>
                           <p className="error-message" ref={errorElementRef}></p>
                         </div>
                       </div>
-                      <div class="card-back">
+                      <div class="card-back" style={{marginTop:'2%'}}>
                         <div class="center-wrap">
                           <div class="section text-center">
-                            <h4 class="mb-4 pb-3">Sign Up</h4>
+                            <h4 class="mb-4 pb-3" >Sign Up</h4>
                             <div class="form-group">
                               <input
                                 type="text"
@@ -203,6 +209,9 @@ function NewForm() {
                             <Link to="/ghats" class="btn-newForm mt-4" onClick={signUp}>
                               submit
                             </Link>
+                          </div>
+                          <div>
+                            <p id='msg-dsp'></p>
                           </div>
                         </div>
                       </div>

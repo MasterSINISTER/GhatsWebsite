@@ -1,4 +1,4 @@
-import TypeIt from "typeit-react";
+// import TypeIt from "typeit-react";
 
 import React from "react";
 import "./Home.css";
@@ -44,11 +44,13 @@ function Home() {
             alt=""
             className="highlight-images"
           ></img>
+          <Link to='/login'>
           <div className="overlay">
             <div className="text" id="varanasi-text">
               Varanasi
             </div>
           </div>
+            </Link>
         </div>
 
         <div className="grid-item">
@@ -57,9 +59,11 @@ function Home() {
             alt=""
             className="highlight-images"
           />
+          <Link to='/login'>
           <div className="overlay">
-            <div className="text">Banaras</div>
+            <div className="text">Patna</div>
           </div>
+          </Link>
         </div>
         <div className="grid-item">
           <img
@@ -67,9 +71,11 @@ function Home() {
             alt=""
             className="highlight-images"
           />
+          <Link to='/login'>
           <div className="overlay">
-            <div className="text">Ujjain</div>
+            <div className="text" style={{cursor:'pointer'}}>Ujjain</div>
           </div>
+          </Link>
         </div>
         <div className="grid-item">
           <img
@@ -77,13 +83,15 @@ function Home() {
             alt=""
             className="highlight-images"
           />
+          <Link to='/login'>
           <div className="overlay">
-            <div className="text">Indore</div>
+            <div className="text">Haridwar</div>
           </div>
+          </Link>
         </div>
       </div>
       <div id="div-morebtn">
-        <Link to='/ghats'><button id="btn-more" type="button">
+        <Link to='/login'><button id="btn-more" type="button">
           More
         </button></Link>
       </div>

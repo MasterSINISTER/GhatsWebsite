@@ -4,38 +4,38 @@ import CustomNav from "../components/CustomNav";
 import TypeIt from "typeit-react";
 import BasicModal from "../components/Modal";
 import Footer from "../components/Footer";
+import Breadcrum from "../components/Breadcrum";
 
 function Prayagraj() {
   return (
     <>
-      <CustomNav />
+      {/* <CustomNav /> */}
+      <Breadcrum ghat="Haridwar"/>
       <div className="var-heading-container">
         <TypeIt>
-          <h1 className="var-heading">Prayagraj</h1>
+          <h1 className="var-heading">Haridwar</h1>
         </TypeIt>
       </div>
       <div className="container">
         <div className="image-container">
           <img
-            src="https://www.trawell.in/admin/images/upload/137201878Haridwar_Gau_Ghat_Main.jpg"
+            src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Evening_view_of_Har-ki-Pauri%2C_Haridwar.jpg"
             alt=""
             style={{ boxShadow: "0 0 10px 10px rgba(255, 119, 0, 0.5);" }}
           />
         </div>
         <div className="text-container">
           <p>
-            <h1>Panchganga Ghat</h1>
-                
-Gau Ghat, situated on the sacred banks of the Ganges River in Varanasi, India, holds profound religious significance for followers of Hinduism.
+            <h1>Har Ki Pauri</h1>
+            Har Ki Pauri is the iconic and revered ghat (riverfront steps) on
+            the banks of the holy River Ganges in Haridwar, Uttarakhand.
             <BasicModal
-              title="Gau Ghats"
-              description="Also known as Gau Mata Ghat, it is dedicated to the revered cow, considered sacred in Hindu culture.
+              title="Har Ki Pauri"
+              description=" It is the pre-eminent sacred site in Haridwar, where devotees congregate to take a holy dip in the Ganges and perform ritualistic activities. The name 'Har Ki Pauri' literally means 'Footsteps of the Lord'.
 
-              Devotees flock to Gau Ghat to perform various rituals and ceremonies honoring the cow, often feeding and caring for them as an act of devotion. The ghat serves as a sanctuary for these gentle animals, reflecting the deeply ingrained reverence for cows in Indian society.
+              This celebrated ghat is characterized by its series of steps that lead down to the waters of the Ganges, flanked by intricately carved sandstone temples and shrines. Every evening, the renowned Ganga Aarti (river worship ceremony) takes place at Har Ki Pauri, where priests perform a mesmerizing ritual with lit lamps, bells, and chants, attracting thousands of spectators. During major festivals like Kumbh Mela, millions of pilgrims throng to Har Ki Pauri to partake in the sacred rituals and take a purifying dip in the revered river.
               
-              In addition to its religious importance, Gau Ghat offers a tranquil setting for spiritual reflection and meditation. Visitors can immerse themselves in the serene ambiance of the ghat, surrounded by the gentle lapping of the river and the distant sounds of temple bells.
-              
-              Gau Ghat is also a hub of social and cultural activity, with locals and tourists gathering to witness traditional ceremonies and festivals celebrated along its banks. It serves as a vibrant center of community life, fostering a sense of unity and devotion among its visitors."
+              Har Ki Pauri is not just a religious site but also an iconic symbol of Haridwar's spiritual legacy and cultural heritage."
             />
           </p>
         </div>
@@ -44,23 +44,20 @@ Gau Ghat, situated on the sacred banks of the Ganges River in Varanasi, India, h
       <div className="container">
         <div className="image-container-left">
           <img
-            src="https://d3k1i85mml78tf.cloudfront.net/Blogs/1678191233319_post_image_1.jpg"
+            src="https://gouttrakhand.com/wp-content/uploads/2023/02/kushavarta-ghat.jpg"
             alt=""
           />
         </div>
         <div className="text-container-left">
           <p>
-            <h1>Mangalnath Ghat</h1>
-            Mangalnath Ghat, nestled along the sacred Ganges River in Varanasi, India, is a site steeped in both religious significance and historical charm.
+            <h1>Kushavarta Ghat</h1>
+            Kushavarta Ghat is an ancient and highly revered ghat (riverfront
+            steps) located on the banks of the holy River Ganges in Haridwar.{" "}
             <BasicModal
-              title="Mangalnath Ghat"
-              description="Named after the Hindu deity Mangala, associated with Mars in Vedic astrology, this ghat holds immense importance for devotees and pilgrims.
+              title="Kushavarta Ghat"
+              description="It is one of the oldest and most significant ghats, believed to date back to the Vedic era. According to Hindu mythology, Lord Vishnu is said to have performed penance at this ghat, making it a sacred site for taking a purifying dip in the Ganges. During major festivals like the Kumbh Mela, millions of devotees congregate at Kushavarta Ghat to partake in religious rituals and immerse themselves in the holy waters. With its intricate stone carvings, ancient temples, and spiritual aura, Kushavarta Ghat is an integral part of Haridwar's rich cultural heritage.
 
-              According to Hindu mythology, Mangalnath Ghat is believed to be the birthplace of Mangala, making it a revered spot for those seeking blessings for strength, courage, and auspiciousness. Devotees often visit the ghat to perform prayers and rituals dedicated to Mangala, seeking divine intervention in their lives.
-              
-              Beyond its religious significance, Mangalnath Ghat also boasts architectural splendor and natural beauty. The ghat's ancient structures and intricate carvings reflect the rich cultural heritage of Varanasi, while its serene waterfront offers a tranquil setting for meditation and spiritual contemplation.
-              
-              Mangalnath Ghat is also a popular destination for tourists and history enthusiasts, who flock to admire its architectural marvels and soak in the vibrant atmosphere of Varanasi's waterfront."
+              "
             />
           </p>
         </div>
@@ -68,23 +65,24 @@ Gau Ghat, situated on the sacred banks of the Ganges River in Varanasi, India, h
       <div className="container">
         <div className="image-container">
           <img
-            src="https://www.trawell.in/admin/images/upload/891041978Ram_Ghat.jpg"
+            src="https://www.allinharidwar.com/wp-content/uploads/2016/01/Asthi-Pravah-Ghat-Haridwar.jpg"
             alt=""
           />
         </div>
         <div className="text-container">
           <p>
-            <h1>Ram Ghat</h1>
-            Ram Ghat, situated along the revered banks of the Ganges River in Varanasi, India, is a significant pilgrimage site steeped in religious and cultural heritage. 
+            <h1>Asthi Pravah Ghat</h1>
+            Asthi Pravah Ghat is a renowned riverfront ghat situated on the
+            banks of the sacred River Ganges in Haridwar.{" "}
             <BasicModal
-              title="Ram Ghat"
-              description="Named after the Hindu deity Lord Ram, this ghat holds profound significance for devotees and visitors alike.
+              title="Asthi Pravah Ghat"
+              description=" It holds immense religious and cultural significance in the Hindu tradition. The ghat is primarily known as the site where Hindus immerse the ashes of their departed loved ones in the holy Ganges, seeking liberation (Moksha) for the deceased souls.
 
-              According to Hindu mythology, it is believed that Lord Ram visited Varanasi during his exile period and offered prayers at this very ghat, sanctifying it with his divine presence. This association with Lord Ram makes Ram Ghat a revered spot for pilgrims seeking blessings for spiritual fulfillment and prosperity.
+              Devotees from across India and worldwide visit Asthi Pravah Ghat to perform the final ritualistic rites and immerse the ashes in the revered river, as it is believed to help the soul attain salvation and break the cycle of rebirth. The ghat features a series of steps leading down to the river, adorned with intricate carvings and shrines dedicated to various deities.
               
-              Ram Ghat is characterized by its serene ambiance and timeless charm, offering a peaceful retreat amidst the bustling city of Varanasi. Devotees often gather here to perform sacred rituals, offer prayers, and take holy dips in the sacred waters of the Ganges, believing in the purifying powers of the river.
+              During major festivals like Kumbh Mela and Ganga Dussehra, Asthi Pravah Ghat witnesses a significant influx of pilgrims and mourners seeking spiritual solace and performing the sacred rituals. With its deep-rooted religious and cultural significance, Asthi Pravah Ghat is an integral part of Haridwar's spiritual heritage.
               
-              Apart from its religious significance, Ram Ghat also serves as a cultural hub, hosting various festivals, ceremonies, and cultural events throughout the year. The ghat's picturesque surroundings and panoramic views of the river make it a popular destination for tourists and photographers seeking to capture the essence of Varanasi's timeless beauty."
+              "
             />
           </p>
         </div>
@@ -92,29 +90,29 @@ Gau Ghat, situated on the sacred banks of the Ganges River in Varanasi, India, h
       <div className="container">
         <div className="image-container-left">
           <img
-            src="https://rishikeshdaytour.com/blog/wp-content/uploads/2022/01/Triveni-Ghat-in-Rishikesh-Uttarakhand.jpg"
+            src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/07/16/Pictures/_a494de7c-c758-11ea-bb10-7020e33bb367.jpg"
             alt=""
           />
         </div>
         <div className="text-container-left">
           <p>
-            <h1>Triveni Ghat</h1>
-            Triveni Ghat, nestled on the confluence of the Ganges, Yamuna, and Saraswati rivers in Rishikesh, India, holds immense religious and spiritual significance.
+            <h1>Subhash Ghat</h1>
+            Subhash Ghat is a historically significant ghat (riverfront steps)
+            located on the banks of the holy River Ganges in Haridwar.{" "}
             <BasicModal
-              title="Triveni Ghat"
-              description="Revered as one of the most sacred ghats in India, Triveni Ghat attracts pilgrims, tourists, and spiritual seekers from all corners of the world.
-
-              According to Hindu mythology, taking a dip at Triveni Ghat is believed to cleanse one's sins and purify the soul. Devotees gather here during auspicious occasions and festivals to perform prayers, rituals, and ceremonies, seeking blessings and spiritual renewal.
-              
-              Triveni Ghat is also renowned for its mesmerizing Ganga Aarti ceremony, held every evening at sunset. Devotees gather on the banks of the river to witness the spectacle of lamps, flowers, and incense being offered to the sacred river, accompanied by chanting and devotional music. The ambiance during the Ganga Aarti is ethereal, evoking a sense of divine presence and spiritual upliftment.
+              title="Subhash Ghat"
+              description="Named after the renowned Indian revolutionary Subhash Chandra Bose, who visited Haridwar in 1939, this ghat is known for its intricate stone carvings and architectural beauty. It serves as a popular site for performing religious rituals, taking sacred dips in the Ganges, and witnessing the captivating Ganga Aarti (river worship ceremony) in the evenings. Subhash Ghat also hosts various cultural events and festivals, showcasing Haridwar's rich heritage. With its historical importance and vibrant atmosphere, it is a must-visit destination for pilgrims and tourists alike.
               
               "
             />
           </p>
         </div>
       </div>
-      <br/><br/><br/><br/>
-      <Footer/>
+      <br />
+      <br />
+      <br />
+      <br />
+      <Footer />
     </>
   );
 }

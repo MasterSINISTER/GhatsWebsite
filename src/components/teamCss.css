@@ -26,6 +26,7 @@ body{margin-top:20px;}
     -webkit-flex-direction: column;
     flex-direction: column;
     min-width: 0;
+    height:70%;
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
