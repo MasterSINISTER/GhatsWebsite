@@ -35,12 +35,12 @@ function Home() {
       <br></br>
       <br></br>
       <div className="grid-heading">
-        <h1 className="famous-ghats" style={{fontFamily:'Poppins'}}>Sacred Stairways: India's Ghats</h1>
+        <h1 className="famous-ghats">Sacred Stairways: India's Ghats</h1>
       </div>
       <div className="grid">
         <div className="grid-item">
           <img
-            src="https://images.unsplash.com/photo-1578378377576-2ed7065bdb87?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="https://images.deccanherald.com/deccanherald%2Fimport%2Fsites%2Fdh%2Ffiles%2Fgallery_images%2Ffile7iy6do8m2q8yvt53jl6.jpg?format=webp&q=70&w=900&dpr=1.3"
             alt=""
             className="highlight-images"
           ></img>
@@ -67,7 +67,7 @@ function Home() {
         </div>
         <div className="grid-item">
           <img
-            src="https://media.easemytrip.com/media/Blog/India/637726618781495393/637726618781495393eqlAxH.jpg"
+            src="https://www.tourmyindia.com/blog//wp-content/uploads/2023/11/Ram-Mandir-Ghat-Ujjain-Madhya-Pradesh-768x479.jpg"
             alt=""
             className="highlight-images"
           />

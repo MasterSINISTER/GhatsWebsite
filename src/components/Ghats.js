@@ -1,7 +1,8 @@
-import React  from "react";
+import React from "react";
 import "./galleryCss.css";
 import { Link } from "react-router-dom";
 import Breadcrum from "./Breadcrum";
+import Footer from "./Footer";
 
 const Ghats = ({
   Vtemperature,
@@ -23,9 +24,13 @@ const Ghats = ({
         {/* <CustomNav /> */}
       </div>
       {/* <Heading title="Indian Ghats"/> */}
-      <Breadcrum/>
-        <h1 style={{textAlign:'center',fontSize:'5rem',fontFamily:'Poppins'}}>Pooja&nbsp;Ghats</h1>
-      <div className="container" style={{marginTop:'0px'}}>
+      <Breadcrum />
+      <h1
+        style={{ textAlign: "center", fontSize: "5rem", fontFamily: "Poppins" }}
+      >
+        Pooja&nbsp;Ghats
+      </h1>
+      <div className="container" style={{ marginTop: "0px" }}>
         <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
           <div className="col">
             <div
@@ -151,7 +156,9 @@ const Ghats = ({
                       Haridwar
                     </h2>
                     <p>
-                    Haridwar is an ancient city located in the northern Indian state of Uttarakhand, in the foothills of the Shivalik range.
+                      Haridwar is an ancient city located in the northern Indian
+                      state of Uttarakhand, in the foothills of the Shivalik
+                      range.
                     </p>
                   </div>
                   <div className="getWeather">
@@ -323,6 +330,7 @@ const Ghats = ({
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

@@ -37,7 +37,7 @@ export default function CustomNav() {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-light navbar-light sticky-top">
+      <nav className="navbar navbar-expand-lg bg-light navbar-light sticky-top" style={{padding:'40px',width:'50%',marginLeft:'25%'}}>
         <div className="container-fluid">
           <button
             className="navbar-toggler"
@@ -57,6 +57,7 @@ export default function CustomNav() {
                   className="nav-link active"
                   aria-current="page"
                   href="/"
+                  style={{fontSize:'1.5rem'}}
                 >
                   Home
                 </a>
@@ -69,6 +70,7 @@ export default function CustomNav() {
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
+                  style={{fontSize:'1.5rem'}}
                 >
                   Explore Now
                 </a>
@@ -103,6 +105,7 @@ export default function CustomNav() {
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
+                  style={{fontSize:'1.5rem'}}
                 >
                   About Us
                 </a>

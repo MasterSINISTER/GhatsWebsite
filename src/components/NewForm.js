@@ -9,6 +9,7 @@ import { useNavigate } from 'react-router-dom';
 import { initializeApp } from "firebase/app";
 
 import TypeIt from "typeit-react";
+import CustomNav from './CustomNav';
 
 function NewForm() {
   
@@ -86,7 +87,7 @@ function NewForm() {
   };
   return (
     <>
-      <Navbar />
+      <CustomNav/>
 	  <Heading title="join us"/>
       <div className="maincontainer">
         <div class="section">

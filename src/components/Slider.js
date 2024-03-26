@@ -65,7 +65,7 @@ export default function Slider() {
         lc-helper="background"
         style={{
           backgroundImage:
-            "url(https://imagetolink.com/ib/JRg5cysyI7.png?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;h=768&amp;fit=crop&amp;ixid=eyJhcHBfaWQiOjM3ODR9)",
+            "url(https://images.unsplash.com/photo-1578378377576-2ed7065bdb87?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundColor: "#444",
