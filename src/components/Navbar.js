@@ -40,7 +40,7 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            Travel Bug
+            Shoreline
           </a>
           <button
             className="navbar-toggler"
@@ -79,7 +79,7 @@ export default function Navbar() {
                   <li>
                     <Link
                       className="dropdown-item"
-                      to="/ghats"
+                      to="/login"
                       style={mainIndex}
                     >
                       Ghats

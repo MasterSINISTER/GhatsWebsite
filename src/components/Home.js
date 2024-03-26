@@ -35,7 +35,7 @@ function Home() {
       <br></br>
       <br></br>
       <div className="grid-heading">
-        <h1 className="famous-ghats">Sacred Stairways: India's Ghats</h1>
+        <h1 className="famous-ghats" style={{fontFamily:'Poppins'}}>Sacred Stairways: India's Ghats</h1>
       </div>
       <div className="grid">
         <div className="grid-item">
