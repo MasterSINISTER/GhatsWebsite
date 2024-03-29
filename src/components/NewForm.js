@@ -36,9 +36,9 @@ function NewForm() {
 
   useEffect(() => {
     if (!isLoggedIn) {
-      errorElementRef.current.textContent = "Invalid email or password";
+        setMessage( "Please Sign Up !");
     } else {
-      errorElementRef.current.textContent = ""; // Clear any previous error message
+      setMessage(""); // Clear any previous error message
     }
   }, [isLoggedIn]);
 

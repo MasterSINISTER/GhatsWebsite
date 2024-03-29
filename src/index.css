@@ -93,4 +93,26 @@ nav:hover{
   color: white;
   background-color: rgba(0, 0, 0);
   font-size: 100%;
+  font-weight: 300;
+  font-family: Poppins;
+  border: none;
+  padding: 15px;
+  margin-left: 35%;
+  margin-top: 5%;
+  transition: all 1s ease;
+
+}
+#support-button:hover{
+  transform: scale(1.1);
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+iframe{
+  transition: all 1s ease;
+}
+iframe:hover{
+  transform: scale(0.97);
+}
+.support-form{
+  width: auto;
 }

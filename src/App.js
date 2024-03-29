@@ -10,7 +10,7 @@ import NewForm from './components/NewForm';
 import Ghats from './components/Ghats';
 import Terms from './components/Terms';
 import Gallery from './components/Gallery';
-import Practice from './components/Practice';
+// import Practice from './components/Practice';
 import ProtectedRoute from './auth/ProtectedRoute';
 import Dashboard from './components/Dashboard';
 import Varanasi from './poojaghats/Varanasi';

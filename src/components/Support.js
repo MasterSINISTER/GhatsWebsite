@@ -27,8 +27,9 @@ export default function Support() {
             </div>
           </div>
         </div>
-        <div className="p-5 lc-block shadow rounded-3 col-xl-10 offset-xl-1">
-          <form className='support-form' style={{borderRadius:'30px'}}>
+        <div id='gif-form' style={{display:'flex',gap:'20px',padding:'10px'}}>
+        <div className="p-5 lc-block shadow rounded-3 col-xl-10 offset-xl-1" style={{width:'50%'}}>
+        <form className='support-form' style={{borderRadius:'30px'}}>
             <div className="form-group mb-4">
               <label>Your Name :</label>
               <input name="mouseglue" type="text" className="form-control" placeholder="Enter the Name" value="" autoComplete="off" hidden required/>
@@ -44,10 +45,14 @@ export default function Support() {
             </div>
             <div className="form-group mb-4">
               <label>Your Message</label>
-              <textarea name="message" className="form-control"  maxLength="300" style={{width:'200%'}}></textarea>
+              <textarea name="message"  className="form-control" style={{width:'300px'}}></textarea>
             </div>
             <button type="submit" className="btn btn-primary btn-lg" id="support-button">Submit Form</button>
           </form>
+          
+        </div>
+          <img src='https://iili.io/JjrLGN1.gif' style={{width:'30%',height:'30%',backgroundSize:'cover',marginTop:'9%',marginLeft:'5%'}}/>
+        
         </div>
       </div>
     </section>

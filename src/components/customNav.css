@@ -6,6 +6,17 @@
       font-family: Wreckout;
       margin-left: 10px;
   }
+  #custom-navbar{
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+width: 60%;
+border-radius: 100px;
+
+  }
   .dropdown-menu{
     margin-top: 1%;
     margin-left: 5rem;

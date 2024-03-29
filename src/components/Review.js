@@ -8,7 +8,7 @@ function Review() {
     <div className="mgb-40 padb-30 auto-invert line-b-4 align-center">
         <h1 className="font-cond-b fg-text-d lts-md fs-300 fs-300-xs no-mg" contenteditable="false" id="heading-review">Read Customer Reviews</h1>
     </div>
-    <ul className="hash-list cols-3 cols-1-xs pad-30-all align-center text-sm">
+    <ul className="hash-list cols-3 cols-1-xs pad-30-all align-center text-sm" >
         <li>
           <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]"/>
           <p className="fs-110 font-cond-l" contenteditable="false">"This Shoreline website is a gem! The detailed information about various ghats, along with stunning visuals, made my virtual exploration an enriching experience."</p>

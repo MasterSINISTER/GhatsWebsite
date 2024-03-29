@@ -12,7 +12,7 @@ export default function Footer() {
 <footer>
 <div class="footer">
 <div class="row" style={{display:'inline-block'}}>
-<a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+<a href="/"><i class="fa fa-facebook"></i></a>
 <a href="/"><i class="fa fa-instagram"></i></a>
 <a href="/"><i class="fa fa-youtube"></i></a>
 <a href="/"><i class="fa fa-twitter"></i></a>
@@ -24,11 +24,12 @@ export default function Footer() {
 <li><Link to="/gallery">Gallery</Link></li>
 <li><Link to="/support">Support</Link></li>
 <li><Link to="/team">Meet Our Team</Link></li>
+<li><Link to="/terms">Terms and Conditions</Link></li>
 </ul>
 </div>
 
 <div class="row">
-INFERNO Copyright © 2021 Inferno - All rights reserved || Designed By: Mahesh 
+<Link to='/terms'>Shoreline Copyright © 2021 Shoreline- All rights reserved</Link> 
 </div>
 </div>
 </footer>
