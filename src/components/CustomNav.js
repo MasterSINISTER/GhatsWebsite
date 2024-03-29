@@ -57,7 +57,7 @@ export default function CustomNav() {
                   className="nav-link active"
                   aria-current="page"
                   href="/"
-                  style={{fontSize:'1.5rem'}}
+                  style={{fontSize:'1.5rem',fontWeight:'600'}}
                 >
                   Home
                 </a>
@@ -70,7 +70,7 @@ export default function CustomNav() {
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
-                  style={{fontSize:'1.5rem'}}
+                  style={{fontSize:'1.5rem',fontWeight:'600'}}
                 >
                   Explore Now
                 </a>
@@ -105,7 +105,7 @@ export default function CustomNav() {
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
-                  style={{fontSize:'1.5rem'}}
+                  style={{fontSize:'1.5rem',fontWeight:'600'}}
                 >
                   About Us
                 </a>

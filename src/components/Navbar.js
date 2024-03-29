@@ -60,6 +60,7 @@ export default function Navbar() {
                   className="nav-link active ms-5"
                   aria-current="page"
                   href="/"
+                  style={{fontWeight:'600'}}
                 >
                   Home
                 </a>
@@ -72,6 +73,7 @@ export default function Navbar() {
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
+                  style={{fontWeight:'600'}}
                 >
                   Explore Now
                 </a>
@@ -106,6 +108,7 @@ export default function Navbar() {
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
+                  style={{fontWeight:'600'}}
                 >
                   About Us
                 </a>
