@@ -36,10 +36,13 @@ function Team() {
                 style={{ width: "70%" }}
               >
                 <div class="card-body p-4">
-                  <div class="member-profile position-absolute w-100 text-center" id='card-user'>
+                  <div
+                    class="member-profile position-absolute w-100 text-center"
+                    id="card-user"
+                  >
                     <img
-                      class="rounded-circle mx-auto d-inline-block shadow-sm"
-                      src="https://bootdey.com/img/Content/avatar/avatar7.png"
+                      // class="rounded-circle mx-auto d-inline-block shadow-sm"
+                      src="https://lh3.googleusercontent.com/pw/AP1GczOzPkMwNkYploUuxSWJ1FkTNVpUDPn7o3lAa6za8bpmFlDZGG05mvCqnQ2GkNk7JmnztVYbnOnC-gc3pMtG4ip_xl0gUzCeEuEpWHlj3MnoKY12_Bnj9qJWouOvvFZp_yKZ3oXmbyyVLP9BnTMYy9g9o22vflKZHd8j4Th8OGFu2VKP7YlmAewH_PvHawiewAwdB7uWdUUmqosTUkVqPZh8OJHjUM4Ws9tM5rINcuBboKzS5qoklsbDGJCNBQkMJUxqS63VyyqzMDXJHIduu5FCi_sxdKgwj8mthHvaafwoe8Ocb9Xv93xAdqp7l2cFyXA3ZD3ggNoE7q_OdQDz-S1bz-5xY6tWIikzn_NAie-cPTnbs_xJyjSAqoW5ai0anvmv9DtGJoZCV5jYDIFeF0A5oXnhYa1Fjou2ZH9XDcrwyGxUSLrwPvpNHmW4GRDrU9dXsfNDuZ745FQOGbMbpx7LbngRLKCYlUK1tuQKtJt48RZXk2VoXJmROzsTVywCO7FZgFWrDCrGFxzGAiGPAUifu5BHyiWrZQeJkBrLttaJBXq51XSxKE7pIGfNjC9-vCg-TJSQkSk7qScx9Qawjobfe5xqd3j3ItBQWe6EWQ6JMf_2HPKzm9LuUezBqkr9J-_QfoJ5WcQmQMsPmNEhLC7yhnhcODSQOJOFUeAN6650FPM2xCulMvU4iqpnhsaA0OFu7wpdsjxg7wil3BIg_SGlXdcsM0ScM68HXefE0RqlYE00Ai-e1RdPLNXHb8C9O2fbdAgrt83HXl7KnFt41jlad487SSIkPiqncXPcDjaVUQyOup1BQzcUQAC39QnvXTMp9UWxCs6eUcOjWFh_rH_Su_uenOt9_mwSEgLxgpsJ13uwjx5kq9Ycm5-GgW5D9Ho048IWT9y3jDQa8QfYqQMv2xtF-MFwWxo8arTUlk6qjQ75tci9LAYPVeoICwfhux4wpbdM12nUvqOrImzfqLMPxNyI3wkEjdIM=w869-h869-s-no-gm?authuser=0"
                       alt=""
                     />
                   </div>
@@ -47,14 +50,18 @@ function Team() {
                     <h5 class="member-name mb-0 text-center text-primary font-weight-bold">
                       Rishabh Gupta
                     </h5>
-                    <div class="mb-3 text-center">Co-founder / CEO</div>
+                    <div class="mb-3 text-center">
+                      Founder / Full-Stack Developer
+                    </div>
                     <div>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Aenean commodo ligula eget dolor. Vivamus eget eros
-                      vestibulum, accumsan ante viverra, condimentum tellus.
-                      Curabitur pellentesque convallis purus non ornare. Donec
-                      bibendum sed purus dignissim rutrum. Maecenas bibendum
-                      feugiat est, et venenatis nunc.
+                      Rishabh is the visionary founder behind our travel
+                      website.As a full-stack developer, Rishabh oversees all
+                      aspects of the website's development, ensuring a seamless
+                      user experience. His expertise in technologies like React,
+                      Node.js, and MongoDB allows him to build robust and
+                      scalable solutions. When not coding, you can find Rishabh
+                      exploring off-the-beaten-path destinations or indulging in
+                      local cuisines.
                     </div>
                   </div>
                 </div>
@@ -133,8 +140,8 @@ function Team() {
                 <div class="teamProfile card-body p-4">
                   <div class="member-profile position-absolute w-100 text-center">
                     <img
-                      class="rounded-circle mx-auto d-inline-block shadow-sm"
-                      src="https://bootdey.com/img/Content/avatar/avatar1.png"
+                      // class="rounded-circle mx-auto d-inline-block shadow-sm"
+                      src="https://media.licdn.com/dms/image/D4D03AQG2NG7zhBXizQ/profile-displayphoto-shrink_400_400/0/1709724448452?e=1718236800&v=beta&t=Eqt7oH3uunx4eDYBcXEeocWVM8kezG2Xb_JT0a839kQ"
                       alt=""
                     />
                   </div>
@@ -142,14 +149,18 @@ function Team() {
                     <h5 class="member-name mb-0 text-center text-primary font-weight-bold">
                       Nandani Hada
                     </h5>
-                    <div class="mb-3 text-center">Co-founder / CTO</div>
+                    <div class="mb-3 text-center">
+                      Co-Founder / Front End Developer
+                    </div>
                     <div>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Aenean commodo ligula eget dolor. Vivamus eget eros
-                      vestibulum, accumsan ante viverra, condimentum tellus.
-                      Curabitur pellentesque convallis purus non ornare. Donec
-                      bibendum sed purus dignissim rutrum. Maecenas bibendum
-                      feugiat est, et venenatis nunc.
+                      Nandani's keen eye for design and her front-end wizardry
+                      have played a pivotal role in crafting our website's
+                      captivating visuals. With a strong background in HTML,
+                      CSS, and JavaScript, she ensures that every element on our
+                      platform is not only aesthetically pleasing but also
+                      highly functional. Nandani's attention to detail and
+                      user-centric approach have been instrumental in creating
+                      an intuitive and engaging interface for our users.
                     </div>
                   </div>
                 </div>
@@ -237,11 +248,17 @@ function Team() {
                     <h5 class="member-name mb-0 text-center text-primary font-weight-bold">
                       Harsh Rajput
                     </h5>
-                    <div class="mb-3 text-center">Marketing</div>
+                    <div class="mb-3 text-center">Designer / UI/UX Expert</div>
                     <div>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Aenean commodo ligula eget dolor. Vivamus eget eros
-                      vestibulum, accumsan ante viverra, condimentum tellus.{" "}
+                      Harsh is the creative force behind our website's stunning
+                      visuals and user experience. As a UI/UX expert, he
+                      combines his keen design sensibilities with a deep
+                      understanding of user behavior to craft interfaces that
+                      are both beautiful and efficient. With a portfolio
+                      spanning various industries, Harsh brings a wealth of
+                      experience to our team. His ability to translate complex
+                      concepts into intuitive designs has been crucial in making
+                      our platform accessible to travelers of all backgrounds.
                     </div>
                   </div>
                 </div>
@@ -317,19 +334,28 @@ function Team() {
                   <div class="member-profile position-absolute w-100 text-center">
                     <img
                       class="rounded-circle mx-auto d-inline-block shadow-sm"
-                      src="https://bootdey.com/img/Content/avatar/avatar2.png"
+                      src="https://i.postimg.cc/441MSW-0q/solo-leveling-sung-jinwoo-3840x2160-14670.jpg"
                       alt=""
+                      
                     />
                   </div>
                   <div class="card-text pt-1">
                     <h5 class="member-name mb-0 text-center text-primary font-weight-bold">
                       Hemant Chandrawanshi
                     </h5>
-                    <div class="mb-3 text-center">Product Manager</div>
+                    <div class="mb-3 text-center">System Analyst</div>
                     <div>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Aenean commodo ligula eget dolor. Vivamus eget eros
-                      vestibulum, accumsan ante viverra, condimentum tellus.
+                      Hemant is the analytical mind behind our website's robust
+                      infrastructure and data-driven decision-making processes.
+                      As a system analyst, he plays a crucial role in optimizing
+                      our platform's performance, ensuring seamless operations,
+                      and maintaining data integrity. With a deep understanding
+                      of database management, server administration, and
+                      analytics, Hemant continuously identifies areas for
+                      improvement and implements efficient solutions. His
+                      attention to detail and problem-solving skills have been
+                      invaluable in ensuring that our users enjoy a smooth and
+                      reliable experience.
                     </div>
                   </div>
                 </div>
