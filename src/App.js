@@ -25,6 +25,7 @@ import Patna from './poojaghats/Patna';
 function MyProtectedPage() {
   <Ghats/>
 }
+
 function App() {
   return (
     <>
@@ -32,7 +33,7 @@ function App() {
       <Routes>
       <Route path="/login" element={<NewForm />} />
       <Route
-        path="/protected"
+        path="/protected" 
         element={
           <ProtectedRoute>
             <MyProtectedPage />
