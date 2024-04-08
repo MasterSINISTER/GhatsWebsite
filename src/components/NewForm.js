@@ -108,7 +108,7 @@ setMessage("Wrong Credentials");
   return (
     <>
       <CustomNav />
-      <Heading title="join us" />
+      <Heading title="JOIN US !" />
       <div className="maincontainer">
         <div className="section">
           <div className="auth-container">
@@ -161,6 +161,7 @@ setMessage("Wrong Credentials");
                             <Link
                               to="/ghats"
                               className="btn-newForm mt-4"
+                              id='btn-submit-login'
                               onClick={signIn}
                             >
                               submit

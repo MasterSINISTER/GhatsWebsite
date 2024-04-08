@@ -40,7 +40,7 @@ export default function Slider() {
           <div className="lc-block">
             <Link to="/login">
               <button id="btn-explore" type="submit">
-                Sign Up
+                Explore
               </button>
             </Link>
             <path

@@ -3,7 +3,7 @@
 .navbar-brand{
   font-size: 6rem;
     letter-spacing: 5px;
-    font-family: Wreckout;
+    font-family: "Lilita One", sans-serif; ;
     margin-left: 10px;
 }
 .dropdown-menu{
@@ -76,7 +76,7 @@ nav:hover{
     margin-bottom: 2%;
     border:none;
     font-size: 160%;
-    font-family: Wreckout;
+    font-family: Foldit;
     background-color: lightgreen;
     color: darkgreen;
 }

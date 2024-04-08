@@ -42,7 +42,7 @@ function Team() {
                   >
                     <img
                       // class="rounded-circle mx-auto d-inline-block shadow-sm"
-                      src="https://lh3.googleusercontent.com/pw/AP1GczOzPkMwNkYploUuxSWJ1FkTNVpUDPn7o3lAa6za8bpmFlDZGG05mvCqnQ2GkNk7JmnztVYbnOnC-gc3pMtG4ip_xl0gUzCeEuEpWHlj3MnoKY12_Bnj9qJWouOvvFZp_yKZ3oXmbyyVLP9BnTMYy9g9o22vflKZHd8j4Th8OGFu2VKP7YlmAewH_PvHawiewAwdB7uWdUUmqosTUkVqPZh8OJHjUM4Ws9tM5rINcuBboKzS5qoklsbDGJCNBQkMJUxqS63VyyqzMDXJHIduu5FCi_sxdKgwj8mthHvaafwoe8Ocb9Xv93xAdqp7l2cFyXA3ZD3ggNoE7q_OdQDz-S1bz-5xY6tWIikzn_NAie-cPTnbs_xJyjSAqoW5ai0anvmv9DtGJoZCV5jYDIFeF0A5oXnhYa1Fjou2ZH9XDcrwyGxUSLrwPvpNHmW4GRDrU9dXsfNDuZ745FQOGbMbpx7LbngRLKCYlUK1tuQKtJt48RZXk2VoXJmROzsTVywCO7FZgFWrDCrGFxzGAiGPAUifu5BHyiWrZQeJkBrLttaJBXq51XSxKE7pIGfNjC9-vCg-TJSQkSk7qScx9Qawjobfe5xqd3j3ItBQWe6EWQ6JMf_2HPKzm9LuUezBqkr9J-_QfoJ5WcQmQMsPmNEhLC7yhnhcODSQOJOFUeAN6650FPM2xCulMvU4iqpnhsaA0OFu7wpdsjxg7wil3BIg_SGlXdcsM0ScM68HXefE0RqlYE00Ai-e1RdPLNXHb8C9O2fbdAgrt83HXl7KnFt41jlad487SSIkPiqncXPcDjaVUQyOup1BQzcUQAC39QnvXTMp9UWxCs6eUcOjWFh_rH_Su_uenOt9_mwSEgLxgpsJ13uwjx5kq9Ycm5-GgW5D9Ho048IWT9y3jDQa8QfYqQMv2xtF-MFwWxo8arTUlk6qjQ75tci9LAYPVeoICwfhux4wpbdM12nUvqOrImzfqLMPxNyI3wkEjdIM=w869-h869-s-no-gm?authuser=0"
+                      src="https://i.postimg.cc/1tCKR1pw/IMG-20240302-183026-2.jpg"
                       alt=""
                     />
                   </div>
@@ -239,8 +239,8 @@ function Team() {
                 <div class="card-body p-4">
                   <div class="member-profile position-absolute w-100 text-center">
                     <img
-                      class="rounded-circle mx-auto d-inline-block shadow-sm"
-                      src="https://bootdey.com/img/Content/avatar/avatar8.png"
+                      // class="rounded-circle mx-auto d-inline-block shadow-sm"
+                      src="https://media.licdn.com/dms/image/D4D03AQFdgRJ7MfCnZg/profile-displayphoto-shrink_400_400/0/1710735804188?e=1718236800&v=beta&t=EuQ1WrkE-8uLa0mQPK7m9XPG5dxHbJF8dOub3pn0sfM"
                       alt=""
                     />
                   </div>
@@ -333,8 +333,8 @@ function Team() {
                 <div class="teamProfile card-body p-4">
                   <div class="member-profile position-absolute w-100 text-center">
                     <img
-                      class="rounded-circle mx-auto d-inline-block shadow-sm"
-                      src="https://i.postimg.cc/441MSW-0q/solo-leveling-sung-jinwoo-3840x2160-14670.jpg"
+                      // class="rounded-circle mx-auto d-inline-block shadow-sm"
+                      src="https://media.licdn.com/dms/image/D4D03AQEqcmoA0lF9BA/profile-displayphoto-shrink_400_400/0/1711133139867?e=1718236800&v=beta&t=eWVPY5Iv4myXriymF6MN2bIEiSjLXz4xc0oufojbQMc"
                       alt=""
                       
                     />
