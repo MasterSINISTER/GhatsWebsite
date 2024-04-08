@@ -1,5 +1,5 @@
 import React from "react";
-import "D:/IGWP React/my-ghats/src/index.css";
+import "../index.css";
 import { BrowserRouter as Router, Route, Routes,Link } from 'react-router-dom';
 import Navbar from "./Navbar";
 import Footer from "./Footer";
