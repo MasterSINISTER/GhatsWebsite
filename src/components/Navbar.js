@@ -1,5 +1,5 @@
 import React,{useEffect} from "react";
-import "D:/IGWP React/my-ghats/src/index.css";
+import "../index.css";
 import { Link } from "react-router-dom";
 export default function Navbar() {
   useEffect(() => {
